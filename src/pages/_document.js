@@ -1,4 +1,6 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import { ServerStyleSheets } from '@mui/styles';
+
 
 export default function Document() {
   return (
@@ -10,4 +12,6 @@ export default function Document() {
       </body>
     </Html>
   )
+
+  
 }
