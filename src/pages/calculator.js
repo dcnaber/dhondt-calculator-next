@@ -68,7 +68,7 @@ function Calculator() {
 </div>
 
     <Head>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='https://dcnaber.github.io/dhondt-calculator-next/favicon.ico' />
         <title>D'hondt Calculator</title>
     </Head>
 

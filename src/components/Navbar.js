@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function NavBar() {
   return (
 <header className="flex justify-between items-center py-6">
-<Image src="/dhondt.jpg" className="h-8" alt="Logo" height="21" width="21" />
+<Image src="https://dcnaber.github.io/dhondt-calculator-next/dhondt.jpg" className="h-8" alt="Logo" height="21" width="21" />
 <nav>
   <ul className="flex space-x-4">
     <li>
@@ -20,7 +20,7 @@ export default function NavBar() {
     </li>
     <li>
         <a href="https://github.com/dcnaber/dhondt-calculator" className="font-medium text-gray-500 hover:text-gray-900">
-    <Image src="/github.svg" alt="GitHub Logo" className="h-7" height="21" width="21" />
+    <Image src="https://dcnaber.github.io/dhondt-calculator-next/github.svg" alt="GitHub Logo" className="h-7" height="21" width="21" />
       </a>
     </li>
   </ul>

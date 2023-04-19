@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <Head>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='https://dcnaber.github.io/dhondt-calculator-next/favicon.ico' />
         <title>D'hondt Calculator</title>
       </Head>
         <NavBar />
