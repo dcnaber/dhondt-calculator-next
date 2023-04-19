@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import { ServerStyleSheets } from '@mui/styles';
 
 
 export default function Document() {
@@ -13,5 +12,5 @@ export default function Document() {
     </Html>
   )
 
-  
+
 }
