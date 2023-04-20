@@ -19,7 +19,7 @@ export default function NavBar() {
       </Link>
     </li>
     <li>
-        <a href="https://github.com/dcnaber/dhondt-calculator" className="font-medium text-gray-500 hover:text-gray-900">
+        <a href="https://github.com/dcnaber/dhondt-calculator-next" className="font-medium text-gray-500 hover:text-gray-900">
     <Image src="https://dcnaber.github.io/dhondt-calculator-next/github.svg" alt="GitHub Logo" className="h-7" height="21" width="21" />
       </a>
     </li>
