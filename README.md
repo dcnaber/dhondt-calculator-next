@@ -1,38 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# D'hondt Calulator
 
-## Getting Started
+## What is D'hondt Calculator?
 
-First, run the development server:
+The D'Hondt calculator is a tool used to allocate seats in proportional representation systems based on the D'Hondt method. The D'Hondt method is a mathematical formula used to calculate the distribution of seats in a party-list proportional representation system.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The D'Hondt method works by dividing the total number of votes each party receives by a series of divisors that increase incrementally, starting from 1, until all the seats have been allocated. The party with the highest quotient (the result of dividing the party's total votes by the divisor) gets the first seat, and this process is repeated until all seats are allocated.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The D'Hondt calculator automates this calculation process and allows for easy and accurate allocation of seats based on the D'Hondt method. It is commonly used in elections, especially in countries with proportional representation systems.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## How to use it?
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<img src="https://i.imgur.com/NqZwN3T.png"  width="550" height="300">
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To use this tool, go to the calculator page and enter the neceserry data (Number of seats, number of votes and party name's), then hit calculate. The results will come up shortly.
